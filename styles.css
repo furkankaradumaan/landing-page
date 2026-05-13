@@ -89,7 +89,11 @@ main {
 
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 48px;
+}
+
+.subcontent {
+    width: 150px;
 }
 
 .subcontent img {
@@ -110,4 +114,24 @@ main {
 main h2 {
     text-align: center;
     font-size: 38px;
+}
+
+.quote-box {
+    padding: 100px 150px;
+    background-color: #e5e7eb;
+}
+
+.quote-box blockquote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.quote-box blockquote cite {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    text-align: right;
 }
