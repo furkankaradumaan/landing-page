@@ -118,6 +118,7 @@ main h2 {
 
 .quote-box {
     padding: 100px 150px;
+    margin-bottom: 100px;
     background-color: #e5e7eb;
 }
 
@@ -134,4 +135,53 @@ main h2 {
     font-weight: bold;
     display: block;
     text-align: right;
+}
+
+.box-call-to-action {
+    background-color: #3882f6;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border-radius: 8px;
+}
+
+.box-call-to-action .text-box {
+    color: #e5e7eb;
+}
+
+.box-call-to-action .header {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.box-call-to-action .text-box .text {
+    width: 100%;
+}
+
+.signup-btn {
+    color: white;
+    border-radius: 4px;
+    padding: 6px 28px;
+}
+
+.signup-btn.header {
+    background-color: #3882f6;
+    margin-top: 4px;
+}
+
+.signup-btn.call-to-action {
+    border: 2px solid white;    
+    background-color: transparent;
+}
+
+.signup-btn:hover {
+    transform: scale(1.1);
+}
+
+.signup-btn:active {
+    transform: scale(0.95);
 }
