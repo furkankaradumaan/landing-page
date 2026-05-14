@@ -185,3 +185,16 @@ main h2 {
 .signup-btn:active {
     transform: scale(0.95);
 }
+
+footer {
+    padding: 24px 0;
+    width: 100%;
+    background-color: #1f2937;
+    color: white;
+}
+
+footer .text {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
